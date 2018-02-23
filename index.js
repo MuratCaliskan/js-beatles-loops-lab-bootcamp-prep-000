@@ -24,14 +24,3 @@ function iLoveTheBeatles(b) {
   while (b > 7 && b < 15);
   return array;
 }
-
-var result = "";
-var i = 0;
-
-do {
-  i = i + 1;
-  result = result + i;
-} while (i < 5);
-
-console.log(result);
-// expected result: "12345"
